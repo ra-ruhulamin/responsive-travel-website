@@ -1,0 +1,326 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+
+}
+/* -----all----background-imgs-------- */
+.bg-1{
+    background-image: url(../img/bg-1.jpg);
+    width: 100%;
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.bg-2{
+    background-image: url(../img/bg-2.jpg);
+    width: 100%;
+    min-height: 80vh;
+    background-position: center;
+    background-size: cover;
+
+}
+.bg-3{
+    background-image: url(../img/bg-3.jpg);
+    width: 100%;
+    min-height: 80vh;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.bg-4{
+    background-image: url(../img/bg-4.jpg);
+    width: 100%;
+    min-height: 90vh;
+    background-position: center;
+    background-size: cover;
+}
+.bg-5{
+    background-image: url(../img/bg-5.jpg);
+    width: 100%;
+    min-height: 50vh;
+    background-position: center;
+    background-size: cover;
+    background-color: #847870;
+}
+
+
+
+
+
+/* -----all----background-imgs-----//////////--- */
+
+
+
+
+
+
+/* ---------------------------------------------------------header css */
+
+.top_search_bar input{
+    margin-left: 20px;
+    border: none;
+    padding: 5px 0 5px 10px;
+    border-radius: 20px;
+    outline: none;
+    background-color: #c3bfbc;
+}
+.top_search_bar i{
+    top: 7px;
+    right: 19px;
+    font-size: 20px;
+    color: #68635f
+}
+
+.main_hrader_text h1{
+    font-size: 5rem;
+    color: #deb37e;
+}
+@media screen and (max-width:800px) {
+    .main_hrader_text h1{
+        font-size: 3rem;
+    }
+}
+.main_hrader_text h2{
+    font-weight: lighter;
+    font-style: italic;
+    font-size: 1.4rem;
+    font-family: sans-serif;
+}
+.main_hrader_text button{
+    background-color: #fff;
+    color: #776c64;
+    border-radius: 20px;
+}
+.main_hrader_text p{
+    font-family: sans-serif;
+}
+
+
+
+
+/* ------///////--------------------------------header css */
+
+/* ------------------open -------main----------sections------one------- */
+.section-1-head-text h1{
+    color: #e2a355;
+}
+.card{
+    background-color: #7f7770;
+    color: #fff;
+}
+.section-1-footer-btn{
+    padding: 8px 20px;
+    border-radius: 20px;
+    background-color: #7f7770;
+    color: #fff;
+    border: none;
+}
+
+
+
+/* ----////--- -------main----------sections------one------- */
+/* ------------------------open -------main----------sections------2------- */
+
+.section-2-text-bg-1{
+background-color: #7f7770;
+display: flex;
+justify-content: center;
+flex-direction: column;
+padding-left: 20px;
+}
+.section-2-text-bg-1 h2{
+    color: #fff;
+}
+.section-2-text-bg-1 button{
+    width: 45%;
+}
+.section-2-text-bg-2{
+background-color: #deb37e;
+display: flex;
+justify-content: center;
+flex-direction: column;
+padding-left: 20px;
+}
+.section-2-text-bg-2 h2{
+    color: #fff;
+}
+.section-2-text-bg-2 button{
+    width: 45%;
+}
+
+
+
+
+
+
+
+@media screen and (max-width:770px) {
+    .section-2-text-bg-1{
+        width: 100% !important;
+        padding-bottom: 40px;
+        padding-top: 40px;
+    }
+    .section-2-text-bg-2{
+        width: 100% !important;
+        padding-bottom: 40px;
+        padding-top: 40px;
+    }
+    .section-2-text-img-1{
+        width: 100% !important;
+        
+    }
+    .section-2-text-img-2{
+        width: 100% !important;
+
+    }
+}
+
+
+/* -//////-----------main----------sections------2------- */
+
+
+
+
+
+/* <!-- ------open -------main----------sections------three-------------- --> */
+
+.main-sections-three p{
+    letter-spacing: 2px;
+    font-family: sans-serif;
+
+}
+
+/* <!-- /////////// -------main----------sections------three----------> */
+
+
+/* -------------------main-sections-four----------------- */
+
+.main-sections-four h1{
+    font-size: 3rem;
+    color: #deb37e;
+    font-style: italic
+}
+
+.main-sections-four h1 span{
+    color: #54524f;
+}
+
+
+@media screen and (max-width:800px) {
+    .main-sections-four h1{
+        font-size: 2rem;
+    }
+}
+
+
+
+
+
+/* ----------////////---------main-sections-four----------------- */
+
+
+/* -----------------------open -------main----------sections------five-- */
+
+
+.main-sections-five h2{
+    color: #e2a355;
+}
+
+.main-sections-five p{
+    color: rgb(87, 86, 86);
+    font-family: sans-serif;
+}
+
+
+
+
+
+/* -----------------------open -------main----------sections------five-- */
+
+
+
+
+/* <!-- ------open -------main----------sections------sixs------------ --> */
+
+.main-sections-sixs{
+    margin-top: 100px !important;
+}
+.main-sections-sixs p{
+    font-family: sans-serif;
+}
+
+.main-sections-sixs input{
+    border-radius: 20px;
+    border: 2px solid black;
+    background-color: transparent;
+    outline: none;
+}
+
+.main-sections-sixs input::before{
+    outline: none;
+}
+.main-sections-sixs button{
+    top: 0;
+    right: 0;
+    border-radius: 25px;
+    outline: none;
+}
+
+
+
+/* <!-- ------close-------main----------sections------sixs------------ --> */
+
+/* <!-- ------open -----------------footer------------------ --> */
+
+
+
+
+.footer div div i{
+    padding: 1rem;
+    background-color: #fff;
+    font-size: 1rem;
+    transition: all .5s;
+}
+.footer div div i:hover{
+    box-shadow: 0px 0px 10px 0 rgb(0, 0, 0);
+}
+
+@media screen and (max-width:1000px) {
+    
+    .footer{
+        margin-top: 50px;
+    }
+}
+@media screen and (max-width:600px) {
+    
+    .footer{
+        margin-top: 200px;
+    }
+    .footer div h2{
+        font-size: 1.5rem
+    }
+    .footer div a{
+        font-size: .9rem
+    }
+    .footer div p{
+        font-size: .9rem
+    }
+    .footer-text p{
+        font-size: .9rem
+    }
+}
+
+
+
+
+
+/* <!--////////// ------open -----------------footer------------------ --> */
+
+
+
